@@ -1,0 +1,66 @@
+body {
+    background-color: #191C21;
+    text-align: center;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 7em;
+    position: relative;
+}
+
+#ours {
+    height: 300px;
+    width: auto;
+}
+
+#compte_a_rebours {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 15vmax;
+    letter-spacing: 20px;
+    word-spacing: 4.6px;
+    color: #E3B709;
+    font-weight: 500;
+    height: 33%;
+}
+
+#ping {
+    height: 60px;
+    width: auto;
+}
+
+#localisation p {
+    color: #e3b709;
+    display: inline;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+footer {
+    height: 5em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+@media(max-width: 767px) {
+    #compte_a_rebours {
+        font-size: 12vw;
+    }
+
+    #localisation p {
+        font-size: 8vw;
+    }
+
+    #ping {
+        height: 8vw;
+    }
+    footer {
+    height: 5em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+}
