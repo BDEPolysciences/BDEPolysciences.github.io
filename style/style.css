@@ -20,7 +20,8 @@ body {
     word-spacing: 4.6px;
     color: #E3B709;
     font-weight: 500;
-    height: 33%;
+    width: 90%;
+    margin: auto;
 }
 
 #ping {
