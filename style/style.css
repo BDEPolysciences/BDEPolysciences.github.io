@@ -18,9 +18,9 @@ body {
     font-size: 15vmax;
     letter-spacing: 20px;
     word-spacing: 4.6px;
-    color: #E3B709;
+    color: white;
     font-weight: 500;
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 #localisation p {
-    color: #e3b709;
+    color: #8091BC;
     display: inline;
     font-family: Impact, Charcoal, sans-serif;
     font-size: 60px;
