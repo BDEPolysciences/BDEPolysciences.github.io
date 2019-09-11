@@ -44,6 +44,14 @@ body {
     text-decoration: none;
     margin: 10px;
 }
+
+#reseaux a{
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 10px 
+}
+
 #reseaux a img{
     height: 50px;
     width: auto;
