@@ -1,16 +1,14 @@
 body {
     background-color: #191C21;
     text-align: center;
-    min-height: 100%;
     margin: 0;
     padding: 0;
-    padding-bottom: 7em;
-    position: relative;
 }
 
 #ours {
     height: 300px;
     width: auto;
+    margin: 20px 0px;
 }
 
 #compte_a_rebours {
@@ -37,12 +35,20 @@ body {
     font-weight: 500;
 }
 
-footer {
+#localisation {
+    margin-top: 50px;
     height: 5em;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0
+}
+
+#reseaux a{
+    text-decoration: none;
+    margin: 10px;
+}
+#reseaux a img{
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 10px 
 }
 
 @media(max-width: 767px) {
@@ -57,11 +63,22 @@ footer {
     #ping {
         height: 8vw;
     }
-    footer {
-    height: 5em;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0
-}
+
+    #localisation {
+        height: 5em;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0
+    }
+
+    #ours {
+        height: 200px;
+        width: auto;
+        margin: 50px 0px;
+    }
+    #reseaux{
+        position: absolute;
+        bottom: 0;
+    }
 }
